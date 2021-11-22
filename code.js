@@ -1,3 +1,3 @@
-document.querySelector("button").addEventListener("click", function(){
-    console.log("Hellooo!");
-})
+document.querySelector("button").addEventListener("click",()=> console.log("hello"));
+
+  const funk=()=> console.log("hello");
