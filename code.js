@@ -20,7 +20,6 @@ console.log(names2);
 //6
 if(names.every(sana=>sana.length>0)){
 let pituudet=names.map(sana=>sana.length)
-
 let summa =pituudet.reduce((previous, current)=>previous+current)
 console.log(summa);
 }
